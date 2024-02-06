@@ -1,13 +1,13 @@
-# Tipos de Licenças
+# Types of licenses
 
 ## Open Source
 
-Opções populares:
+Popular options:
 
-- Licença MIT.
-- Licença Apache 2.0.
+- MIT License.
+- Apache 2.0 License.
 
-Ambas são permissivas e permitem o uso, modificação e distribuição, mas têm algumas diferenças em termos de responsabilidades legais.
+Both are permissive and allow use, modification and distribution, but they have some differences in terms of legal responsibilities.
 
 ## Others
 
