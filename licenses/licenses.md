@@ -1,4 +1,4 @@
-# Types of licenses
+# Types of licenses 🥇
 
 ## Open Source
 
@@ -12,3 +12,5 @@ Both are permissive and allow use, modification and distribution, but they have 
 ## Others
 
 - Research.
+
+### Referencies 👀
