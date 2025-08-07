@@ -1,5 +1,0 @@
-# Types of licenses 🥇
-
-
-### References 👀
-
