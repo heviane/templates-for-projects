@@ -27,7 +27,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/template-project-documentation">
+  <a href="https://github.com/heviane/templates-for-projects">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -36,14 +36,14 @@
   <p align="center">
     An awesome README template to jumpstart your projects!
     <br />
-    <a href="https://github.com/othneildrew/template-project-documentation"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/heviane/templates-for-projects"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/template-project-documentation">View Demo</a>
+    <a href="https://github.com/heviane/templates-for-projects">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/template-project-documentation/issues">Report Bug</a>
+    <a href="https://github.com/heviane/templates-for-projects/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/template-project-documentation/issues">Request Feature</a>
+    <a href="https://github.com/heviane/templates-for-projects/issues">Request Feature</a>
   </p>
 </div>
 
@@ -170,7 +170,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Chinese
 - [ ] Spanish
 
-See the [open issues](https://github.com/othneildrew/template-project-documentation/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/heviane/templates-for-projects/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -230,15 +230,15 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/template-project-documentation.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/template-project-documentation/graphs/contributors
+[contributors-url]: https://github.com/heviane/templates-for-projects/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/template-project-documentation.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/template-project-documentation/network/members
+[forks-url]: https://github.com/heviane/templates-for-projects/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/template-project-documentation.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/template-project-documentation/stargazers
+[stars-url]: https://github.com/heviane/templates-for-projects/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/template-project-documentation.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/template-project-documentation/issues
+[issues-url]: https://github.com/heviane/templates-for-projects/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/template-project-documentation.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/template-project-documentation/blob/master/LICENSE.md
+[license-url]: https://github.com/heviane/templates-for-projects/blob/master/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
