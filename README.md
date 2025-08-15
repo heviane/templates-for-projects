@@ -1,234 +1,56 @@
-<div id="top"></div>
+# Templates para Projetos de Software
 
-<!--
-*** Thanks for checking out the template-project-documentation. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
+Este repositório é uma coleção centralizada de templates, guias e configurações projetados para acelerar o início de novos projetos de software. O objetivo é fornecer uma base sólida e padronizada, garantindo consistência no ambiente de desenvolvimento, na estrutura do projeto e nas práticas de colaboração desde o primeiro dia.
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
+---
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+## 🚀 O que você encontrará aqui?
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/othneildrew/template-project-documentation">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+Este "starter kit" inclui os seguintes recursos para facilitar sua vida:
 
-  <h3 align="center">template-project-documentation</h3>
+### 📁 `/.vscode` - Ambiente de Desenvolvimento Padronizado
 
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/template-project-documentation"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/template-project-documentation">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/template-project-documentation/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/template-project-documentation/issues">Request Feature</a>
-  </p>
-</div>
+Configurações para o Visual Studio Code que garantem que toda a equipe utilize os mesmos padrões.
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+- **`settings.json`**: Formatação ao salvar, linter e configurações do editor.
+- **`extensions.json`**: Recomendações de extensões essenciais para o projeto.
+- **`launch.json`**: Configurações de depuração prontas para uso (ex: Node.js).
+- **`tasks.json`**: Tarefas automatizadas para build, teste e outras operações.
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+### 📁 `/.github` - Guias de Colaboração
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Templates para facilitar a gestão da comunidade e das contribuições no GitHub.
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+- **`CONTRIBUTING.md`**: Um guia claro sobre como contribuir com o projeto.
+- **`ISSUE_TEMPLATE.md`**: Modelos para reportar bugs e sugerir funcionalidades.
+- **`PULL_REQUEST_TEMPLATE.md`**: Um modelo para garantir que os PRs sejam claros e completos.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others.
-* You shouldn't be doing the same tasks over and over like creating a README from scratch.
-* You should implement DRY principles to the rest of your life. :smile:
+### 📁 `/docs` - Documentação e Guias
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+Documentos úteis para guiar os desenvolvedores.
 
-Use the `BLANK_README.md` to get started.
+- **Sugestões de Estrutura de Projetos**: Exemplos de como organizar projetos (Node.js, Front-end/Back-end).
+- **Guias Práticos**: Tutoriais passo a passo para tarefas comuns, como versionar um novo projeto no GitHub.
+- **Modelos de Templates**: Exemplos e modelos prontos para uso.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+### 📄 `.editorconfig` - Consistência de Código
 
-### Built With
+Um arquivo de configuração para manter um estilo de código consistente (indentação, final de linha, etc.) em diferentes editores e IDEs.
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+---
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+## 🛠️ Como Usar
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+1. **Clone ou baixe** este repositório.
+2. **Copie** os arquivos e diretórios desejados (como `.vscode`, `.github`, `.editorconfig`) para a raiz do seu novo projeto.
+3. **Adapte** os arquivos conforme necessário. Por exemplo, atualize os nomes e descrições no `CONTRIBUTING.md` e outros documentos.
 
-<!-- GETTING STARTED -->
-## Getting Started
+Com isso, seu novo projeto já começará com uma base organizada e padronizada!
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+---
 
-### Prerequisites
+## 🤝 Como Contribuir
 
-This is an example of how to list things you need to use the software and how to install them.
+Contribuições são muito bem-vindas! Se você tem um template útil, uma melhoria para um guia existente ou uma nova ideia, sinta-se à vontade para abrir uma Issue ou um Pull Request.
 
-```sh
-npm install npm@latest -g
-```
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-
-```sh
-git clone https://github.com/your_username_/Project-Name.git
-```
-
-3. Install NPM packages
-
-```sh
-npm install
-```
-
-4. Enter your API in `config.js`
-
-```js
-const API_KEY = 'ENTER YOUR API';
-```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-- [ ] Chinese
-- [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/template-project-documentation/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- LICENSE -->
-## License 📜 
-
-Distributed under the MIT License. See [Creative Commons BY-NC-SA 4.0](./LICENSE.md) for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/template-project-documentation.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/template-project-documentation/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/template-project-documentation.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/template-project-documentation/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/template-project-documentation.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/template-project-documentation/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/template-project-documentation.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/template-project-documentation/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/template-project-documentation.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/template-project-documentation/blob/master/LICENSE.md
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+Por favor, leia nosso guia de contribuição em [Guia de Contribuição](.github/CONTRIBUTING.md) para mais detalhes.

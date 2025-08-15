@@ -1,0 +1,21 @@
+{
+  // Formata o arquivo ao salvar
+  "editor.formatOnSave": true,
+
+  // Define o Prettier como formatador padrão para os arquivos suportados
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Ativa a correção automática do ESLint ao salvar
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // Garante que os finais de linha sejam LF (padrão em Linux/macOS)
+  "files.eol": "\n",
+
+  // Oculta arquivos e pastas gerados do explorador de arquivos
+  "files.exclude": {
+    "**/node_modules": true
+  }
+}
+

@@ -1,0 +1,10 @@
+{
+  // Lista de extensões recomendadas para este projeto
+  "recommendations": [
+    "dbaeumer.vscode-eslint", // Integração com ESLint
+    "esbenp.prettier-vscode", // Formatador de código Prettier
+    "ritwickdey.liveserver", // Para desenvolvimento web, como visto na sua documentação
+    "ms-vscode.powershell", // Para scripts de automação
+    "github.vscode-pull-request-github" // Para revisar PRs diretamente no editor
+  ]
+}
